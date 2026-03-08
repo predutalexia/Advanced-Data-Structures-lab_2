@@ -1,24 +1,25 @@
 # Advanced-Data-Structures-lab_2
-Red-Black Tree — How to Run
 
 Files
 -----
-  RBNode.h   - Red-Black Tree implementation (header-only, your original template completed)
-  main.cpp   - Simple interactive demo
+  RBNode.h   - Red-Black Tree implementation (header-only)
+  main.cpp   - Interactive demo
   README.txt - This file
 
 Requirements
 ------------
-  g++ with C++11 or later (standard on Linux/macOS/Windows with MinGW)
+  MinGW-w64 (g++ for Windows)
+  Download from: https://www.mingw-w64.org/
 
 Compile
 -------
-  g++ -std=c++17 -Wall -o rbtree main.cpp
+  Open Command Prompt in the folder containing the files, then run:
+
+    g++ -std=c++17 -Wall -o rbtree.exe main.cpp
 
 Run
 ---
-  Linux/macOS:  ./rbtree
-  Windows:      rbtree.exe
+  rbtree.exe
 
 Menu options
 ------------
